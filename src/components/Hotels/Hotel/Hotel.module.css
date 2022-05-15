@@ -1,0 +1,139 @@
+.card {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 4px 1px;
+  margin: 2vw;
+  display: flex;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+
+.head {
+  flex: 0.4;
+}
+
+.Hotel__image {
+  display: flex;
+  height: 20rem;
+}
+
+.info {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+}
+
+.info__title {
+  flex: 0.1;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.info__name{
+  margin: 0;
+  margin-left: 0.5vw;
+  color: rgb(38, 63, 63);
+  font-size: 2.1rem;
+}
+
+.info__address{
+  margin: 0;
+  color: rgb(38, 63, 63);
+  font-size: 1.4rem;
+  padding-right: 1rem;
+}
+
+.action {
+  flex: 0.1;
+  padding: 0 1vw 0 1vw;
+}
+
+.Action__option{
+  display: flex;
+  justify-content: space-between;
+}
+
+.action p {
+  margin: 0vw;
+  margin-top: 0.5vw;
+}
+
+.button {
+  padding: 0.7vw 1vw;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  float: right;
+  background-color: rgb(58, 133, 99);
+  color: aliceblue;
+  border-radius: 0.3rem;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgb(0, 133, 76);
+}
+
+.amenities__value {
+  display: flex;
+  align-items: flex-start;
+  flex: 0.8;
+  padding: 0.5vw;
+  color: rgb(38, 63, 63);
+}
+
+.Amenitie__p{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  height: 33px;
+}
+
+.count{
+  display: none;
+}
+
+.amount{
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.room{
+  font-size: 1rem;
+  margin: 0;
+}
+
+.rating{
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.rating__pOne{
+  font-size: 1rem;
+  background-color: rgb(21, 117, 29);
+  padding: 0.1rem 0.5rem;
+  color: aliceblue;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (max-width:1140px) {
+  .card{
+    display: block;
+  }
+
+  .Amenitie__p{
+    font-size: 1rem;
+  }
+
+  .info__title{
+    display: block;
+  }
+}
+
+@media only screen and (max-width:540px){
+  .amenities__value{
+    display: none;
+  }
+}

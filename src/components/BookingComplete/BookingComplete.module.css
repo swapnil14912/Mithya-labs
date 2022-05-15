@@ -1,0 +1,100 @@
+.userBooking{
+    margin: 2rem 7vw;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 4px 1px;
+}
+
+.userBooking__pOne{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.userBooking__data{
+    background-color: rgb(246, 246, 246);
+    padding: 1rem 2rem;
+}
+
+.Data__details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Data__pOne{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.Data__pTwo{
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.Data__date{
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.Date__span{
+    font-weight: 500;
+}
+
+.Data__price{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.Data__amenities{
+    background-color:floralwhite;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 4px 1px;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+    border-radius: 0.3rem;
+}
+
+.Amenitie{
+    justify-content: center;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.Data__img{
+    width: 40rem;
+    height: 20rem;
+}
+
+.Data__policypOne{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.Policy{
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.Data__noBooking{
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media only screen and (max-width:1337px) {
+    .Data__amenities{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1278px) {
+    .Data__img{
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width:1055px) {
+    .Data__img{
+        display: none;
+    }
+}

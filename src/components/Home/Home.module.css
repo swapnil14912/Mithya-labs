@@ -1,0 +1,11 @@
+.home{
+    display: flex;
+}
+
+.home__filter{
+    flex: 0.2;
+}
+
+.home__hotels{
+    flex: 0.8;
+}

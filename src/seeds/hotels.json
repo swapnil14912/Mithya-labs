@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "hotelName":"Sunshine Hotel",
+        "hotelDescription":"Located in the heart of Delhi, we pride ourselves for being the best. Be our guest, and find true meaning of hospitality",
+        "hotelAmenities":["AC","Geyser", "WiFi", "Parking", "TV", "24x7 Electricity", "Laundry", "Refrigerator"],
+        "hotelPrice":3500,
+        "hotelPolicy":["Check-in at 11:00 AM IST, Check-out at 12:00 PM IST","Early Check-in is available based on the availability of rooms","No Smoking","100% refund if the cancellation is done 24hrs prior to check-in"],
+        "hotelRating":[4,5,4],
+        "hotelImage":["https://media.istockphoto.com/photos/luxury-resort-picture-id104731717?k=20&m=104731717&s=612x612&w=0&h=40INtJRzhmU1O4Rj24zdY8vj4aGsWpPaEfojaVQ8xBo=", "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80","https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"],
+        "hotelAddress":{
+            "stateut":"New Delhi",
+            "pincode":"1100xx"
+        }
+    },
+    {
+        "id":2,
+        "hotelName":"Rosemary Hotel",
+        "hotelDescription":"Be our guest, and find true meaning of hospitality",
+        "hotelAmenities":["AC", "WiFi", "Parking", "TV", "24x7 Electricity", "Laundry"],
+        "hotelPrice":4000,
+        "hotelPolicy":["Check-in at 11:00 AM IST, Check-out at 12:00 PM IST","Early Check-in is available based on the availability of rooms","No Smoking","100% refund if the cancellation is done 24hrs prior to check-in"],
+        "hotelRating":[5,4,3],
+        "hotelImage":["https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80","https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80","https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"],
+        "hotelAddress":{
+            "stateut":"New Delhi",
+            "pincode":"1100xx"
+        }
+    },
+    {
+        "id":3,
+        "hotelName":"Rose Hotel",
+        "hotelDescription":"Be our guest, and find true meaning of hospitality",
+        "hotelAmenities":["AC", "WiFi", "Parking", "TV", "24x7 Electricity", "Laundry"],
+        "hotelPrice":4000,
+        "hotelPolicy":["Check-in at 11:00 AM IST, Check-out at 12:00 PM IST","Early Check-in is available based on the availability of rooms","No Smoking","100% refund if the cancellation is done 24hrs prior to check-in"],
+        "hotelRating":[5,4,5],
+        "hotelImage":["https://images.unsplash.com/photo-1568084680786-a84f91d1153c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80","https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80","https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"],
+        "hotelAddress":{
+            "stateut":"New Delhi",
+            "pincode":"1100xx"
+        }
+    }
+]

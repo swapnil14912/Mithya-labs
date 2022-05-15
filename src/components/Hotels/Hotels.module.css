@@ -1,0 +1,23 @@
+.hotels {
+  margin: 0 7vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.Hotels__myBooking {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 4px 1px;
+  border-radius: 0.3rem;
+  margin: 0 2vw;
+  padding: 0.5rem;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 480px) {
+  .Hotels__myBooking {
+    display: none;
+  }
+}

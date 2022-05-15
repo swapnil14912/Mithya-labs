@@ -1,0 +1,14 @@
+[
+    {
+        "username":"admin",
+        "password":"admin"
+    },
+    {
+        "username":"test",
+        "password":"testing"
+    },
+    {
+        "username":"swapnil",
+        "password":"swapnil"
+    }
+]
